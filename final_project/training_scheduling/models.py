@@ -42,8 +42,8 @@ class Date(models.Model):
 class Class_rooms(models.Model): 
 
     SITE_CHOICES = [
-        ('PRISHTINA1', 'prishtina1'), 
-        ('PRISHTINA2', 'prishtina2'),
+        ('SITE1', 'site1'), 
+        ('SITE2', 'site2'),
     ]
     Site = models.CharField(
         max_length=30,
@@ -64,11 +64,11 @@ class Class_rooms(models.Model):
 class Trainings(models.Model): 
     
     CONFIG_CHOICES = [
-        ('TCHIBO', 'Tchibo'), 
-        ('SKY', 'Sky'),
-        ('HERMES', 'Hermes'),
-        ('HP', 'Hp'),
-        ('TELEFONICA', 'Telefonica'),
+        ('PPROJECT1', 'Project1'), 
+        ('PPROJECT2', 'Project2'),
+        ('PPROJECT3', 'Project3'),
+        ('PPROJECT4', 'Project4'),
+        ('PPROJECT5', 'Project5'),
         # mi shtu krejt edhe munsin me shtu admini vet congifigurim nese se gjen qata qe i vyn
     ]
     Config = models.CharField(
@@ -78,11 +78,11 @@ class Trainings(models.Model):
         blank=True
     )
     PROJECT_CHOISES = [
-        ('TCHIBO', 'Tchibo'), 
-        ('SKY', 'Sky'),
-        ('HERMES', 'Hermes'),
-        ('HP', 'Hp'),
-        ('TELEFONICA', 'Telefonica'),
+        ('PPROJECT1', 'Project1'), 
+        ('PPROJECT2', 'Project2'),
+        ('PPROJECT3', 'Project3'),
+        ('PPROJECT4', 'Project4'),
+        ('PPROJECT5', 'Project5'),
         # mi shtu krejt edhe munsin me shtu admini vet congifigurim nese se gjen qata qe i vyn
     ]
     project = models.CharField(
@@ -92,11 +92,8 @@ class Trainings(models.Model):
         blank=True
     )
     TYPE_CHOICES = [
-        ('TCHIBO', 'Tchibo'), 
-        ('SKY', 'Sky'),
-        ('HERMES', 'Hermes'),
-        ('HP', 'Hp'),
-        ('TELEFONICA', 'Telefonica'),
+        ('TYPE1', 'Type1'), 
+        ('TYPE2', 'Type2'),
         # mi shtu krejt edhe munsin me shtu admini vet congifigurim nese se gjen qata qe i vyn
     ]
     type_training = models.CharField(
