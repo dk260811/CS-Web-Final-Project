@@ -1,10 +1,11 @@
-# Project Title
+# Training Scheduling
 
-A brief description of your Django project.
+In this project I build a django application that handels organising training classes or conference room reservations.
+I got the Idea from the company I work in, sometimes trainers and managers have problems keeping track of which class or room is free to use and which are reserved.
 
 ## Distinctiveness and Complexity
 
-Why you believe your project satisfies the distinctiveness and complexity requirements, mentioned above.
+I believe that the complexity of my project is sufficient.
 
 ## Requirements
 
