@@ -600,4 +600,6 @@ QIKJO PER POST OBSERVATION NESE SDU ME BO ME JACASCRIPT
 
 
 href="/{{ class_room.id }}"
+
+test komment
 '''
