@@ -265,7 +265,7 @@ function editObservation() {
     });
     document.querySelector("#edit").style.display = 'none';
     document.querySelector("#show").style.display = 'block';
-    document.querySelector("#PDF").style.display = 'none';
+    //document.querySelector("#PDF").style.display = 'none';
     
 }
 
